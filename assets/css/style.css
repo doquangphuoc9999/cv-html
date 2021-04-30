@@ -278,7 +278,7 @@ p {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/couple.jpg") top no-repeat;
+  background: url("../img/bgr-img.png") top no-repeat;
   background-size: cover;
   position: relative;
 }
