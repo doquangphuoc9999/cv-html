@@ -1162,7 +1162,7 @@ section {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 992px) {
   .name_introduction {
     text-align: center;
   }

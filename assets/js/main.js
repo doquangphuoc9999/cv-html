@@ -1,19 +1,18 @@
-
-document.querySelectorAll(".person_name").forEach(e => {
-  e.append(person.name)
+document.querySelectorAll(".person_name").forEach((e) => {
+  e.append(person.name);
 });
 
-document.querySelectorAll(".facebook").forEach(e => {
+document.querySelectorAll(".facebook").forEach((e) => {
   e.setAttribute("href", person.facebook);
-})
+});
 
-document.querySelectorAll(".instagram").forEach(e => {
+document.querySelectorAll(".instagram").forEach((e) => {
   e.setAttribute("href", person.instagram);
-})
+});
 
-document.querySelectorAll(".github").forEach(e => {
+document.querySelectorAll(".github").forEach((e) => {
   e.setAttribute("href", person.gitHub);
-})
+});
 
 document.querySelector("#introduce").append(person.introduce);
 document.querySelector("#profile").innerHTML += `
@@ -33,16 +32,17 @@ document.querySelector("#profile").innerHTML += `
             </div>
 `;
 
-person.interests.forEach(e => {
-  document.querySelector("#interest").innerHTML += `<img src="${e.srcImg}" alt="${e.name}" class="fav-img" />`
-})
+person.interests.forEach((e) => {
+  document.querySelector(
+    "#interest"
+  ).innerHTML += `<img src="${e.srcImg}" alt="${e.name}" class="fav-img" />`;
+});
 
 document.querySelector("#shortTarget").innerHTML = person.shortTarget;
 document.querySelector("#longTarget").innerHTML = person.longTarget;
 
-person.skills.forEach(e => {
-  document.querySelector(".skills-content").innerHTML +=
-    `<div class="col-lg-6">
+person.skills.forEach((e) => {
+  document.querySelector(".skills-content").innerHTML += `<div class="col-lg-6">
   <div class="progress">
     <span class="skill">${e.name} <i class="val"><strong>${e.levelScore}%</strong></i></span>
     <div class="progress-bar-wrap">
@@ -51,33 +51,32 @@ person.skills.forEach(e => {
     </div>
     <div>${e.discription}</div>
   </div>       
-</div>`
-})
+</div>`;
+});
 
-person.educations.forEach(e => {
-  document.querySelector("#educations").innerHTML +=
-    `<div class="resume-item">
+person.educations.forEach((e) => {
+  document.querySelector("#educations").innerHTML += `<div class="resume-item">
       <h4>${e.nameSchool}</h4>
       <h5>${e.time}</h5>
       <p><em>${e.nameClass}</em></p>
-    </div>`
-})
+    </div>`;
+});
 
-person.experiences.forEach(e => {
-  document.querySelector("#experience").innerHTML +=
-    `<div class="resume-item">
+person.experiences.forEach((e) => {
+  document.querySelector("#experience").innerHTML += `<div class="resume-item">
       <h4>${e.nameCompany}</h4>
       <h5>${e.time}</h5>
       <p><em>${e.position}</em></p>
       <ul>
           ${e.experience}
       </ul>
-  </div>`
-})
+  </div>`;
+});
 
-person.certificates.forEach(e => {
-  document.querySelector("#certi").innerHTML +=
-    `<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+person.certificates.forEach((e) => {
+  document.querySelector(
+    "#certi"
+  ).innerHTML += `<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
   data-aos-delay="200">
   <div class="icon-box iconbox-blue">
     <div class="icon">
@@ -92,12 +91,13 @@ person.certificates.forEach(e => {
     <h6>${e.time}</h6>
     <p>${e.uses}</p>
   </div>
-</div>`
-})
+</div>`;
+});
 
-person.projects.forEach(p => {
-  document.querySelector("#projects").innerHTML +=
-    `<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+person.projects.forEach((p) => {
+  document.querySelector(
+    "#projects"
+  ).innerHTML += `<div class="col-lg-4 col-md-6 portfolio-item filter-web">
   <div class="portfolio-wrap">
     <img src="${p.image1}" class="img-fluid" alt="">
     <div class="portfolio-info">
@@ -111,7 +111,5 @@ person.projects.forEach(p => {
       </div>
     </div>
   </div>
-</div>`
-
-})
-
+</div>`;
+});

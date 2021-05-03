@@ -1,26 +1,25 @@
-
 findProjectById = function (id) {
-    for (let i = 0; i < person.projects.length; i++) {
-        if (person.projects[i].id == id) {
-            return person.projects[i];
-        }
+  for (let i = 0; i < person.projects.length; i++) {
+    if (person.projects[i].id == id) {
+      return person.projects[i];
     }
-}
+  }
+};
 
 let id = localStorage.getItem("id");
 let projectDetail = findProjectById(id);
 document.getElementById("portfolio-title").innerHTML = projectDetail.name;
 let i1 = document.getElementsByClassName("image1");
 for (let i = 0; i < i1.length; i++) {
-    i1[i].src = projectDetail.image1;
+  i1[i].src = projectDetail.image1;
 }
 let i2 = document.getElementsByClassName("image2");
 for (let i = 0; i < i2.length; i++) {
-    i2[i].src = projectDetail.image2;
+  i2[i].src = projectDetail.image2;
 }
 let i3 = document.getElementsByClassName("image3");
 for (let i = 0; i < i3.length; i++) {
-    i3[i].src = projectDetail.image3;
+  i3[i].src = projectDetail.image3;
 }
 
 document.getElementById("time").innerHTML = projectDetail.time;

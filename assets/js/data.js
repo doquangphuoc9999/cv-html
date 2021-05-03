@@ -93,80 +93,83 @@ let knowleage_1 =
   "Xây dựng được bố cục trang web, có phát triển thêm phần chạy ảnh trong tin mới. Có reponsive. Sử dụng Javascript để thiết lập chức năng tìm kiếm bài viết (Có chuẩn hóa chuỗi). Deploy dự án.";
 let project_1 = new Project(
   1,
-  "Mô phỏng trang chủ Liên Minh 360",
-  "7 ngày",
-  "1 người",
+  "Trang web quản lý bán hàng, doanh thu, định lượng một tiệm coffee",
+  "15 ngày",
+  "3 người",
   "JavaScript ES6",
   "Không dùng",
-  "HTML5/CSS3/Javascript ES6",
-  "Không dùng",
+  "",
+  "Spring Boot, Spring Security, Ajax, jQuery, Thymeleaf, JPA, Restful API",
   knowleage_1,
-  "assets/img/portfolio/lienminh/image1.png",
-  "assets/img/portfolio/lienminh/image2.png",
-  "assets/img/portfolio/lienminh/image3.png",
-  "assets/img/portfolio/lienminh/fullImage.png",
-  "Không có",
-  "http://bit.ly/39OGbFY",
-  "Không có",
-  "http://bit.ly/36g1XkM",
+  "assets/img/portfolio/codeCoffee/image1.png",
+  "assets/img/portfolio/codeCoffee/image2.png",
+  "assets/img/portfolio/codeCoffee/image3.png",
+  "assets/img/portfolio/codeCoffee/fullImage.png",
+  "",
+  // "http://bit.ly/39OGbFY",
+  // "Không có",
+  // "http://bit.ly/36g1XkM",
+  "",
+  "",
+  "",
   1
 );
 
 let knowleage_2 =
-  "Validate thông tin (front-end, back-end), phân tích thiết kế database, CRUD 4 bảng quan hệ với nhau, đăng nhập vào trang admin, xét duyệt hồ sơ, sử dụng thư viện summernote để thêm sửa bài viết, phân trang bằng backend. Deploy dự án lên Heroku";
+  "Validate thông tin (front-end, back-end), phân tích thiết kế database, CRUD 13 bảng quan hệ với nhau, đăng nhập vào trang admin,  sử dụng thư viện summernote để thêm sửa bài viết, phân trang bằng backend, phân quyền bằng Security.";
 let project_2 = new Project(
   2,
-  "Trang web quản lý thông tin đăng ký thi Hoa hậu Việt Nam",
-  "10 ngày",
+  "Trang web quản lý thông tin bán hàng",
+  "16 ngày",
   "1 người",
   "Java, Javascript ES6",
-  "Servlet",
-  "JSP/JSTL, HTML5/CSS3, Bootstrap 4, template AdminLTE",
+  "",
+  "Spring MVC, HTML5/CSS3, Bootstrap 4, Thymeleaf, Template: Coll-Admin",
   "PostgreSQL",
   knowleage_2,
-  "assets/img/portfolio/hoahau/image1.png",
-  "assets/img/portfolio/hoahau/image2.png",
-  "assets/img/portfolio/hoahau/image3.png",
-  "assets/img/portfolio/hoahau/fullImage.png",
-  "admin; Password@123",
-  "http://bit.ly/3t0H6vO",
-  "http://bit.ly/3a4rsXv",
-  "http://bit.ly/3cdCYCt",
+  "assets/img/portfolio/shopMe/image1.png",
+  "assets/img/portfolio/shopMe/image2.png",
+  "assets/img/portfolio/shopMe/image3.png",
+  "assets/img/portfolio/shopMe/fullImage.png",
+  // "admin; Password@123",
+  "admin; Phuoc",
+  // "http://bit.ly/3t0H6vO",
+  // "http://bit.ly/3a4rsXv",
+  // "http://bit.ly/3cdCYCt",
+  "",
+  "",
+  "",
   1
 );
 
 let knowleage_3 =
-  "Xây dựng bố cục kỹ thuật dự án theo mô hình MVC, phân tích thiết kế database, thiết kế giao diện bán hàng, dùng Github để quản lý mã nguồn khi làm việc nhóm, CRUD 8/17 bảng với quan hệ với nhau, validate thông tin nhập vào (front-end, back-end), xử lý đồng bộ và bất đồng bộ trong ajax, upload file ảnh, đăng nhập phân quyền bằng Spring Security. Deploy dự án lên Heroku";
+  "Xây dựng bố cục kỹ thuật dự án theo mô hình MVC, phân tích thiết kế database, thiết kế giao diện một trang blog hoàn thiện, dùng Github để quản lý mã nguồn khi làm việc, CRUD 4 bảng với quan hệ với nhau, validate thông tin nhập vào (front-end, back-end), đăng nhập phân quyền bằng Servlet Jstl";
 let project_3 = new Project(
   3,
-  "Trang web hỗ trợ quản lý bán hàng",
-  "25 ngày",
-  "2 người",
+  "Trang web Blog",
+  "10 ngày",
+  "1 người",
   "Java, Javascript ES6",
-  "Spring Boot, Spring Security, Ajax, jQuery, Thymeleaf, JPA, Restful API",
-  "Bootstrap 4, CSS3, HTML5, template Admin: Gentelella-master, template Login: Login_v16",
+  "Không có",
+  "Bootstrap 4, CSS3, HTML5, template Admin: Gentelella-master, template Login: Coll_Admin",
   "PostgreSQL",
   knowleage_3,
-  "assets/img/portfolio/shopnow/image1.png",
-  "assets/img/portfolio/shopnow/image2.png",
-  "assets/img/portfolio/shopnow/image3.png",
-  "assets/img/portfolio/shopnow/fullImage.png",
-  " admin@gmail.com; Password@123",
-  "https://bit.ly/3ogD1jm",
-  "http://bit.ly/36gnLNa",
-  "http://bit.ly/2KR4Eln",
+  "assets/img/portfolio/blog/image1.png",
+  "assets/img/portfolio/blog/image2.png",
+  "assets/img/portfolio/blog/image3.png",
+  "assets/img/portfolio/blog/fullImage.png",
+  "phuoc@gmail.com; 1234567",
+  // "https://bit.ly/3ogD1jm",
+  // "http://bit.ly/36gnLNa",
+  // "http://bit.ly/2KR4Eln",
+  "",
+  "",
+  "",
   1
 );
 projects.push(project_3, project_2, project_1);
 person.projects = projects;
 
-let education_1 = new Education(
-  1,
-  "07/2013-06/2017",
-  "Đại học Khoa học Huế",
-  "Cử nhân chuyên ngành Quản lý môi trường, khoa Môi trường",
-  1
-);
 let education_2 = new Education(
   2,
   "03/2019-12/2019",
