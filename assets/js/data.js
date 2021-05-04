@@ -26,7 +26,7 @@ person.facebook = "https://www.facebook.com/profile.php?id=100026972359836";
 person.instagram = "https://www.instagram.com/doquangphuoc1512/";
 person.gitHub = "https://github.com/doquangphuoc9999";
 person.qrCode = "assets/img/CVOffline.png";
-person.cvOffline = "http://bit.ly/3seqteA";
+person.cvOffline = "https://i.topcv.vn/doquangphuoc?ref=4091912";
 person.shortTarget = shortTarget;
 person.longTarget = longTarget;
 person.introduce = introduce;
