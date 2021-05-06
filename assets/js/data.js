@@ -109,7 +109,7 @@ let project_1 = new Project(
   // "http://bit.ly/39OGbFY",
   // "Không có",
   // "http://bit.ly/36g1XkM",
-  "",
+  "https://github.com/39domia/code-coffee-management-application.git",
   "",
   "",
   1
@@ -162,7 +162,7 @@ let project_3 = new Project(
   // "https://bit.ly/3ogD1jm",
   // "http://bit.ly/36gnLNa",
   // "http://bit.ly/2KR4Eln",
-  "",
+  "https://github.com/doquangphuoc9999/case-module3.git",
   "",
   "",
   1
