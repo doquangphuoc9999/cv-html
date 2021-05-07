@@ -7,7 +7,7 @@ let certificates = [];
 let referencePersons = [];
 
 let shortTarget =
-  "Phải vượt qua được vòng phỏng vấn và trở thành nhân viên chính thức của công ty. Luyện anh văn thành thạo trong 6 tháng. Phải hoàn thành tốt các nhiệm vụ và trở thành Junior trong 3 tháng và rèn luyện các kỹ năng và kiến thức đầy đủ, vững vàng để trở thành Senior trong 24 tháng tiếp theo.";
+  "Phải vượt qua được vòng phỏng vấn và trở thành nhân viên chính thức của công ty. Luyện anh văn thành thạo trong 6 tháng. Phải hoàn thành tốt các nhiệm vụ và trở thành Junior trong 1 năm gắng bó với Công Ty và rèn luyện các kỹ năng và kiến thức đầy đủ, vững vàng để trở thành Senior trong 4-5 năm tiếp theo.";
 let longTarget =
   "Tham gia vào nhiều dự án tầm trung và lớn để phát triển thêm các kiến thức và kỹ năng lãnh đạo để trở thành Leader trong 4 năm gắn bó với công ty.";
 let introduce =
