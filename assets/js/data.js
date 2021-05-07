@@ -62,14 +62,14 @@ let discription_javaSpringBoot =
 let skill_javaSpringboot = new Skill(
   2,
   "Spring Freamwork",
-  40,
+  50,
   discription_javaSpringBoot,
   1
 );
 
 let discription_db =
   "Biết sử dụng database để lưu trữ dữ liệu và đổ dữ liệu lên website. Có kiến thức cơ bản về các câu lệnh truy vấn.";
-let skill_dataBase = new Skill(3, "Database", 45, discription_db, 1);
+let skill_dataBase = new Skill(3, "Database", 40, discription_db, 1);
 
 let discription_javaScript =
   "Biết dùng JavaScript, CSS, HTML kết hợp cùng Ajax, jQuery để tạo hiệu ứng, lấy dữ liệu, xử lý bất đồng bộ...";
@@ -81,11 +81,28 @@ let skill_js_css_html = new Skill(
   1
 );
 
+let discription_git_teamwork =
+  "Quản lý được mã nguồn github, khả năng làm việc nhóm cao.";
+
+let skill_git_teamwork = new Skill(
+  5,
+  "Git/Teamwork",
+  70,
+  discription_git_teamwork,
+  1
+);
+
+let discription_thymeleaf = "Có thể xây dựng giao diện bằng Thymeleaf";
+
+let skill_thymeleaf = new Skill(6, "Thymeleaf", 55, discription_thymeleaf, 1);
+
 skills.push(
   skill_javaServlet,
   skill_javaSpringboot,
   skill_dataBase,
-  skill_js_css_html
+  skill_js_css_html,
+  skill_git_teamwork,
+  skill_thymeleaf
 );
 person.skills = skills;
 
