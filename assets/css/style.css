@@ -147,21 +147,6 @@ p {
   overflow-y: auto;
 }
 
-@media (max-width: 992px) {
-  #header {
-    width: 300px;
-    background: #fff;
-    border-right: 1px solid #e6e9ec;
-    left: -300px;
-  }
-}
-
-@media (min-width: 992px) {
-  #main {
-    margin-left: 100px;
-  }
-}
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -283,47 +268,6 @@ p {
   position: relative;
 }
 
-@media (min-width: 992px) {
-  #hero {
-    padding-left: 230px;
-  }
-}
-
-@media (max-width: 530px) {
-  #hero {
-    width: 100%;
-    background: url(../img/bgr-1.jpg) top no-repeat;
-    background-size: cover;
-    position: relative;
-    display: block;
-    height: auto;
-    background-size: 100%;
-  }
-}
-
-/* @media (max-width: 992px) {
-  #hero {
-    width: 100%;
-    height: 100vh;
-    background: url(../img/bgr-1.jpg) top no-repeat;
-    background-size: 100%;
-    position: relative;
-    height: 400px;
-  }
-} */
-
-@media (max-width: 510px) {
-  .social-links {
-    display: none;
-  }
-}
-
-@media (max-width: 380px) {
-  .social-links {
-    display: none;
-  }
-}
-
 #hero h1 {
   margin: 0;
   font-size: 64px;
@@ -359,21 +303,6 @@ p {
 
 #hero .social-links a:hover {
   color: #ffeb3b;
-}
-
-@media (max-width: 992px) {
-  #hero {
-    text-align: center;
-  }
-  #hero h1 {
-    font-size: 32px;
-    line-height: 36px;
-  }
-  #hero p {
-    margin-top: 10px;
-    font-size: 20px;
-    line-height: 24px;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -1181,17 +1110,11 @@ section {
   padding: 15px 0 0 0;
 }
 
-@media (max-width: 992px) {
-  .portfolio-details .portfolio-info {
-    padding-top: 20px;
-  }
-}
-
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .name_introduction {
     text-align: center;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Footer
@@ -1252,4 +1175,58 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+/* mobile section */
+@media (max-width: 992px) {
+  .portfolio-details .portfolio-info {
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 900px) {
+  #hero {
+    padding-left: 193px;
+  }
+  #main {
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 510px) {
+  .social-links {
+    display: none;
+  }
+}
+
+@media (max-width: 380px) {
+  .social-links {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  #hero h1 {
+    font-size: 25px;
+    line-height: 36px;
+  }
+  #hero p {
+    margin-top: 10px;
+    font-size: 17px;
+    line-height: 24px;
+  }
+  #header {
+    width: 300px;
+    background: #fff;
+    border-right: 1px solid #e6e9ec;
+    left: -300px;
+  }
+  #hero {
+    height: auto;
+    background-size: contain;
+    padding-top: 44.64%;
+  }
+  #hero .aos-animate {
+    position: absolute;
+    bottom: 36%;
+  }
 }
