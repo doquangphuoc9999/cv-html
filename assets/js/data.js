@@ -69,10 +69,10 @@ let skill_javaSpringboot = new Skill(
 
 let discription_db =
   "Biết sử dụng database để lưu trữ dữ liệu và đổ dữ liệu lên website. Có kiến thức cơ bản về các câu lệnh truy vấn.";
-let skill_dataBase = new Skill(3, "Database", 40, discription_db, 1);
+let skill_dataBase = new Skill(3, "MySQL", 40, discription_db, 1);
 
 let discription_javaScript =
-  "Biết dùng JavaScript, CSS, HTML kết hợp cùng Ajax, jQuery để tạo hiệu ứng, lấy dữ liệu, xử lý bất đồng bộ...";
+  "Biết dùng JavaScript, CSS, HTML để tạo hiệu ứng, lấy dữ liệu, xử lý bất đồng bộ...";
 let skill_js_css_html = new Skill(
   4,
   "HTML/CSS/JS",
@@ -96,18 +96,30 @@ let discription_thymeleaf = "Có thể xây dựng giao diện bằng Thymeleaf"
 
 let skill_thymeleaf = new Skill(6, "Thymeleaf", 55, discription_thymeleaf, 1);
 
+let discription_ajax_jquery =
+  "Có thể xây dựng hiệu ứng, CRUD bằng Ajax, Jquery";
+
+let skill_ajax_jquery = new Skill(
+  7,
+  "Ajax/Jquery",
+  45,
+  discription_ajax_jquery,
+  1
+);
+
 skills.push(
   skill_javaServlet,
   skill_javaSpringboot,
   skill_dataBase,
   skill_js_css_html,
   skill_git_teamwork,
-  skill_thymeleaf
+  skill_thymeleaf,
+  skill_ajax_jquery
 );
 person.skills = skills;
 
 let knowleage_1 =
-  "Xây dựng được bố cục trang web, có phát triển thêm phần chạy ảnh trong tin mới. Có reponsive. Sử dụng Javascript để thiết lập chức năng tìm kiếm bài viết (Có chuẩn hóa chuỗi). Deploy dự án.";
+  "Xây dựng được bố cục trang web, có phát triển thêm phần chạy ảnh trong tin mới. Có reponsive. Sử dụng Javascript để thiết lập chức năng tìm kiếm bài viết (Có chuẩn hóa chuỗi).";
 let project_1 = new Project(
   1,
   "Trang web quản lý bán hàng, doanh thu, định lượng một tiệm coffee",
@@ -123,9 +135,6 @@ let project_1 = new Project(
   "assets/img/portfolio/codeCoffee/image3.png",
   "assets/img/portfolio/codeCoffee/fullImage.png",
   "",
-  // "http://bit.ly/39OGbFY",
-  // "Không có",
-  // "http://bit.ly/36g1XkM",
   "https://github.com/39domia/code-coffee-management-application.git",
   "",
   "",
@@ -148,12 +157,8 @@ let project_2 = new Project(
   "assets/img/portfolio/shopMe/image2.png",
   "assets/img/portfolio/shopMe/image3.png",
   "assets/img/portfolio/shopMe/fullImage.png",
-  // "admin; Password@123",
   "admin; Phuoc",
-  // "http://bit.ly/3t0H6vO",
-  // "http://bit.ly/3a4rsXv",
-  // "http://bit.ly/3cdCYCt",
-  "",
+  "https://github.com/doquangphuoc9999/shop-me",
   "",
   "",
   1
@@ -226,22 +231,22 @@ person.experiences = experiences;
 
 let certificate_1 = new Certificate(
   1,
-  "Anh văn B1",
-  "04/2016",
-  "Có thể đọc hiểu được tài liệu tiếng Anh",
+  "Học cách học",
+  "09/2020",
+  "Có khả năng tự học, tự đặt câu hỏi và tự giải quyết vấn đề",
   1
 );
 let certificate_2 = new Certificate(
   2,
   "Hoàn thành mọi việc với Kanban",
-  "07/2020",
+  "11/2020",
   "Có thể lên kế hoạch và quản lý công việc với bảng Kanban, giới hạn công việc đang làm để tập trung hoàn thành từng việc một, đặt mục tiêu tốt cho ngắn hạn và dài hạn.",
   1
 );
 let certificate_3 = new Certificate(
   3,
   "SCRUM Essence",
-  "12/2020",
+  "02/2021",
   "Tạo được Định nghĩa Hoàn thành phù hợp với tình huống hiện tại, tạo và duy trì được Product Backlog, quản lý được Sprint Backlog, theo dõi được tiến độ của Sprint sử dụng biểu đồ burndown, theo dõi được tiến độ của sản phẩm sử dụng biểu đồ burndown.",
   1
 );
