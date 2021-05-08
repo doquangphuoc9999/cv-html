@@ -9,7 +9,7 @@ let referencePersons = [];
 let shortTarget =
   "Phải vượt qua được vòng phỏng vấn và trở thành nhân viên chính thức của công ty. Luyện anh văn thành thạo trong 6 tháng. Phải hoàn thành tốt các nhiệm vụ và trở thành Junior trong 1 năm gắng bó với Công Ty và rèn luyện các kỹ năng và kiến thức đầy đủ, vững vàng để trở thành Senior trong 4-5 năm tiếp theo.";
 let longTarget =
-  "Tham gia vào nhiều dự án tầm trung và lớn để phát triển thêm các kiến thức và kỹ năng lãnh đạo để trở thành Leader trong 4 năm gắn bó với công ty.";
+  "Tham gia vào nhiều dự án tầm trung và lớn để phát triển thêm các kiến thức và kỹ năng lãnh đạo để trở thành Leader trong 7-8 năm gắn bó với công ty.";
 let introduce =
   "Là một người có niềm đam mê lớn với lập trình, thích được tư duy để giải quyết bài toán. Có khả năng tự tìm kiếm và học tập khá cao. Là một người trung thực, ham học hỏi cái mới, có tính kiên trì.";
 
@@ -181,9 +181,6 @@ let project_3 = new Project(
   "assets/img/portfolio/blog/image3.png",
   "assets/img/portfolio/blog/fullImage.png",
   "phuoc@gmail.com; 1234567",
-  // "https://bit.ly/3ogD1jm",
-  // "http://bit.ly/36gnLNa",
-  // "http://bit.ly/2KR4Eln",
   "https://github.com/doquangphuoc9999/case-module3.git",
   "",
   "",
