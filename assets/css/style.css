@@ -295,7 +295,7 @@ p {
 #hero .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: #000000;
+  color: #d0e1e3;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
@@ -1204,6 +1204,26 @@ section {
     display: none;
   }
 }
+
+@media (max-width: 1024px) {
+  #hero {
+    height: auto;
+    background-size: contain;
+    padding-top: 46.64%;
+  }
+  #hero .aos-animate {
+    position: absolute;
+    bottom: 40%;
+    right: 2%;
+  }
+}
+
+@media (max-width: 300px) {
+  #hero .aos-animate {
+    display: none;
+  }
+}
+
 @media (max-width: 992px) {
   #hero h1 {
     font-size: 25px;
@@ -1219,14 +1239,5 @@ section {
     background: #fff;
     border-right: 1px solid #e6e9ec;
     left: -300px;
-  }
-  #hero {
-    height: auto;
-    background-size: contain;
-    padding-top: 44.64%;
-  }
-  #hero .aos-animate {
-    position: absolute;
-    bottom: 36%;
   }
 }

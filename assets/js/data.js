@@ -7,9 +7,9 @@ let certificates = [];
 let referencePersons = [];
 
 let shortTarget =
-  "Phải vượt qua được vòng phỏng vấn và trở thành nhân viên chính thức của công ty. Luyện anh văn thành thạo trong 6 tháng. Phải hoàn thành tốt các nhiệm vụ và trở thành Junior trong 1 năm gắng bó với Công Ty và rèn luyện các kỹ năng và kiến thức đầy đủ, vững vàng để trở thành Senior trong 4-5 năm tiếp theo.";
+  "Phải vượt qua được vòng phỏng vấn và trở thành nhân viên chính thức của công ty. Luyện anh văn thành thạo trong 6 tháng. Phải hoàn thành tốt các nhiệm vụ và trở thành Junior trong 1 năm gắng bó với Công Ty rèn luyện các kỹ năng và kiến thức đầy đủ.";
 let longTarget =
-  "Tham gia vào nhiều dự án tầm trung và lớn để phát triển thêm các kiến thức và kỹ năng lãnh đạo để trở thành Leader trong 7-8 năm gắn bó với công ty.";
+  "Tham gia vào nhiều dự án tầm trung và lớn để phát triển thêm các kiến thức và kỹ năng lãnh đạo để trở thành Senior trong 4-5 năm và Leader trong 7-8 năm gắn bó với công ty.";
 let introduce =
   "Là một người có niềm đam mê lớn với lập trình, thích được tư duy để giải quyết bài toán. Có khả năng tự tìm kiếm và học tập khá cao. Là một người trung thực, ham học hỏi cái mới, có tính kiên trì.";
 
@@ -33,7 +33,7 @@ person.introduce = introduce;
 
 let interest_football = new Interest(
   1,
-  "Football",
+  "Bóng đá",
   "assets/img/football.png",
   1
 );
@@ -43,8 +43,15 @@ let interest_lol = new Interest(
   "assets/img/lol.png",
   1
 );
+
+let interest_read_book = new Interest(
+  3,
+  "Đọc sách",
+  "assets/img/readBook.jpg",
+  1
+);
 let interest_pes = new Interest(3, "PES", "assets/img/pes.png", 1);
-interests.push(interest_football, interest_lol);
+interests.push(interest_football, interest_lol, interest_read_book);
 person.interests = interests;
 
 let discription_javaServlet =
@@ -256,7 +263,7 @@ let referencePerson_1 = new ReferencePerson(
   "assets/img/AnhPhuc.png",
   "Giám đốc điều hành trung tâm CodeGym Huế",
   "Công ty CODEGYM VIETNAM JSC",
-  "0983.339.720",
+  "081-205-6246",
   "phuc.le@codegym.vn",
   1
 );
@@ -266,7 +273,7 @@ let referencePerson_2 = new ReferencePerson(
   "assets/img/AnhKhoa.png",
   "Giám đốc đào tạo CodeGym Huế",
   "Công ty CODEGYM VIETNAM JSC",
-  "0935216417",
+  "0935-216-417",
   "khoa.nguyen@codegym.vn",
   1
 );
