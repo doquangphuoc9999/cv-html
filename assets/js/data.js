@@ -11,7 +11,7 @@ let shortTarget =
 let longTarget =
   "Tham gia vào nhiều dự án tầm trung và lớn để phát triển thêm các kiến thức và kỹ năng lãnh đạo để trở thành Senior trong 4-5 năm và Leader trong 7-8 năm gắn bó với công ty.";
 let introduce =
-  "Là một người có niềm đam mê lớn với lập trình, thích được tư duy để giải quyết bài toán. Có khả năng tự tìm kiếm và học tập khá cao. Là một người trung thực, ham học hỏi cái mới, có tính kiên trì.";
+  "Là một người vui vẻ hòa đồng, năng động có niềm đam mê lớn với lập trình, thích được tư duy để giải quyết bài toán. Có khả năng tự tìm kiếm và học tập khá cao. Là một người hiền lành, trung thực, ham học hỏi cái mới, có tính kiên trì.";
 
 var person = {};
 
@@ -25,7 +25,7 @@ person.address = "Hương Toàn - Hương Trà - Thừa Thiên Huế";
 person.facebook = "https://www.facebook.com/profile.php?id=100026972359836";
 person.instagram = "https://www.instagram.com/doquangphuoc1512/";
 person.gitHub = "https://github.com/doquangphuoc9999";
-person.qrCode = "assets/img/CVOffline.png";
+person.qrCode = "assets/img/qrCode.PNG";
 person.cvOffline = "https://i.topcv.vn/doquangphuoc?ref=4091912";
 person.shortTarget = shortTarget;
 person.longTarget = longTarget;

@@ -27,7 +27,7 @@ document.querySelector("#profile").innerHTML += `
                   </ul>
               </div>
               <div class="col-lg-6">
-                  <div class = "text-center"><img src="${person.qrCode}"/></div>
+                <div class = "text-center"><img src="${person.qrCode}"/></div>
               </div>
             </div>
 `;
