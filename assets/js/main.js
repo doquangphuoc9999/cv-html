@@ -18,10 +18,10 @@ document.querySelector("#introduce").append(person.introduce);
 document.querySelector("#profile").innerHTML += `
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Ngày sinh:</strong> ${person.dob}</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Số điện thoại:</strong> ${person.phone}</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Date of birth:</strong> ${person.dob}</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Phone number:</strong> ${person.phone}</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Email:</strong>${person.email}</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Địa chỉ:</strong> ${person.address}</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Address:</strong> ${person.address}</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Link Github:</strong> <a href="${person.gitHub}" target="blank">${person.gitHub}</a></li>
                   <li><i class="icofont-rounded-right"></i> <strong>CV PDF:</strong> <a href="${person.cvOffline}" target="blank">${person.cvOffline}</a></li>
                   </ul>
@@ -102,12 +102,12 @@ person.projects.forEach((p) => {
     <img src="${p.image1}" class="img-fluid" alt="">
     <div class="portfolio-info">
       <h4>${p.name}</h4>
-      <a href="${p.homeLink}" target ="blank">Link trang web</p>
+      <a href="${p.homeLink}" target ="blank">Site link</p>
       <div class="portfolio-links">
         <a href="${p.fullImage}" data-gall="portfolioGallery" class="venobox"
           title="Full Image"><i class="bx bx-plus"></i></a>
         <a href="" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
-          class="venobox projectDetail" title="Thông tin chi tiết" onclick = getProjectDetail(${p.id})><i class="bx bx-link"></i></a>
+          class="venobox projectDetail" title="Details" onclick = getProjectDetail(${p.id})><i class="bx bx-link"></i></a>
       </div>
     </div>
   </div>
