@@ -11,7 +11,7 @@ let shortTarget =
 let longTarget =
   "Participate in many mid and large projects to develop more leadership knowledge and skills to become a Senior in 4-5 years and a Leader for 7-8 years with the company.";
 let introduce =
-  "An active, sociable cheerful person with a great passion for programming, like to think to solve problems. Ability to self-search and learn quite high.As a gentle, honest, eager to learn new things, persistent.";
+  "An active, sociable cheerful person with a great passion for programming, likes to think to solve problems. Ability to self-search and learn quite high.As a gentle, honest, eager to learn new things, persistent.";
 
 var person = {};
 
@@ -212,7 +212,7 @@ let experience3 = new Experience(
   "09/2020-04/2021",
   "Codegym Bootcamp Hue",
   "Student",
-  "- Learn how to use HTML, CSS, and JavaScript to create basic website.<br>- Access Java language, database mySQL / PostgreSQL to build backend application with JSP / Servlet technology, Spring Framework (Spring MVC, Spring Boot, Spring Security).<br>- Improve skills of searching information, working in groups, managing Github source code.<br>- Know job management by Product Backlog, Scrum.<br>",
+  "- Learn how to use HTML, CSS, and JavaScript to create a basic website.<br>- Access Java language, database MySQL / PostgreSQL to build backend application with JSP / Servlet technology, Spring Framework (Spring MVC, Spring Boot, Spring Security).<br>- Improve skills of searching information, working in groups, managing Github source code.<br>- Know job management by Product Backlog, Scrum.<br>",
   1
 );
 // let experience2 = new Experience(
